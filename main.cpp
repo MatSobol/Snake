@@ -101,11 +101,11 @@ int main()
 		{
 			toggleFullScreen(&windowSize);
 		}
-		if (IsKeyDown(KEY_LEFT))
+		if (IsKeyDown(KEY_A))
 		{
 			snake.leftTurn(LEfT_TURN_SPEED);
 		}
-		if (IsKeyDown(KEY_RIGHT))
+		if (IsKeyDown(KEY_D))
 		{
 			snake.rightTurn(RIGHT_TURN_SPEED);
 		}
